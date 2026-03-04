@@ -1,9 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.env
+.venv
+venv/
+env/
+
+# Project specific
 backend/.env
 backend/venv/
 backend/__pycache__/
 backend/data/
+backend/instance/
+
+# Node
 frontend/node_modules/
 whatsapp-service/node_modules/
 whatsapp-service/.wwebjs_auth/
 whatsapp-service/.wwebjs_cache/
-*.pyc
+
+# Build
+frontend/build/
+*.egg-info/
+dist/
+build/
