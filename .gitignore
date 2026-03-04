@@ -1,0 +1,9 @@
+backend/.env
+backend/venv/
+backend/__pycache__/
+backend/data/
+frontend/node_modules/
+whatsapp-service/node_modules/
+whatsapp-service/.wwebjs_auth/
+whatsapp-service/.wwebjs_cache/
+*.pyc
