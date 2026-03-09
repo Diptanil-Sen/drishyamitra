@@ -2,7 +2,7 @@
 
 Drishyamitra is an intelligent photo management system that uses deep learning-based facial recognition and natural language understanding to automate photo organization, search, and delivery.
 
----
+----
 
 ## 🚀 Features
 
