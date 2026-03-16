@@ -26,7 +26,7 @@ def send_photos_via_whatsapp(phone, photo_ids, user_id):
         for photo in photos:
             if os.path.exists(photo.filepath):
                 response = requests.post(
-                    'http://localhost:3001/send-photo',
+                    'http://whatsapp:3001/send-photo',
                     json={
                         'phone': phone,
                         'photoPath': photo.filepath,

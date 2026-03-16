@@ -1,5 +1,4 @@
 version: '3.8'
-
 services:
   backend:
     build: ./backend
@@ -50,12 +49,14 @@ services:
     build: ./whatsapp-service
     container_name: drishyamitra-whatsapp
     restart: unless-stopped
+    shm_size: '1gb'
     networks:
       - drishyamitra-network
     ports:
       - "3001:3001"
     volumes:
       - whatsapp_auth:/app/.wwebjs_auth
+      - photo_data:/app/data/photos
 
 networks:
   drishyamitra-network:
